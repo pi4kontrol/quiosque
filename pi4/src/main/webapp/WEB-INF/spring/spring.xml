@@ -12,15 +12,13 @@
     <context:component-scan base-package="br.senac.utils"/>
     <context:component-scan base-package="br.senac.service"/>
     <context:component-scan base-package="br.senac.controller"/>
- 
+ 	
     <!-- SpringMVC -->
     <import resource="spring-mvc.xml"/>
  
- 	<!--  
- 	
- 		adcionar tag comentario  SpringData 
-    	<import resource="spring-jpa.xml"/>
- 
+ 	<!--SpringData--> 
+    <import resource="spring-jpa.xml"/>
+ 	<!-- 
     	 adcionar tag comentario SpringSecurity 
     	<import resource="spring-security.xml"/>
  	-->
