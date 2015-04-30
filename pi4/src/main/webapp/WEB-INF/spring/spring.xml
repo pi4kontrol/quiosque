@@ -16,8 +16,6 @@
     <!-- SpringMVC -->
     <import resource="spring-mvc.xml"/>
  
- 	<!--SpringData--> 
-    <import resource="spring-jpa.xml"/>
  	<!-- 
     	 adcionar tag comentario SpringSecurity 
     	<import resource="spring-security.xml"/>
